@@ -1,0 +1,100 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    margin: 0; /*Para centralizar um elemento dentro de seu pai */
+    padding: 0; /*evita definir uma distância para cada lado separadamente */
+    box-sizing: border-box; /*que indica que o tamanho agora levará em conta até a borda */
+    outline: none; /* remove a borda da caixa de texte */
+}
+
+body {
+    background-color: #8A51FC; /* define a cor de fundo de um elemento.*/
+}
+
+.logo {
+
+    width: 300px; /*determina a largura*/
+    display: block ;
+    margin: 20px auto;
+}
+
+main {
+    width: 375px;
+    border-radius: 20px;
+    background: #F4F4F4;
+    margin: 0 auto 40px;
+    padding: 48px 24px 23px;
+    
+}
+
+label {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+select ,input {
+    border-radius: 4px;
+    border: 1px solid #BBBBBB;
+    background: #FFFFFF;
+    width: 100% ;
+    height: 48px;
+    margin-bottom: 24px;
+    appearance: none; /* tirar a cor azul da borda*/
+    padding-left: 18px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #555555;
+}
+
+button {
+    background: #772FD3;
+    border-radius: 5px;
+    width: 100%;
+    border: none;
+    height: 48px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+button:active {
+    opacity: 0.6;
+}
+
+section {
+    border-radius: 20px;
+    border: 1px solid #772FD3;
+    margin-top: 36px;
+    padding: 12px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrow-img {
+    margin: 15px 0;
+}
+
+.currency-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px; /*define os espaços (gutters (en-US)) entre as linhas e colunas.*/
+}
+
+.currency {
+    color: #777777;
+    font-size: 14px;
+}
+
+.currency-value, .currency-value-to-convert{
+    color: #555555;
+    font-weight: 700;
+    font-size: 20px;
+}
